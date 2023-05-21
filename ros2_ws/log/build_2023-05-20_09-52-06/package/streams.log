@@ -1,0 +1,25 @@
+[0.313s] Invoking command in '/home/ros2/ros2_ws/src/package': PYTHONPATH=/home/ros2/ros2_ws/build/package/prefix_override:/home/ros2/ros2_ws/install/package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/package build --build-base /home/ros2/ros2_ws/build/package/build install --record /home/ros2/ros2_ws/build/package/install.log --install-scripts $base/lib/package --single-version-externally-managed
+[0.409s] running egg_info
+[0.410s] writing ../../build/package/package.egg-info/PKG-INFO
+[0.410s] writing dependency_links to ../../build/package/package.egg-info/dependency_links.txt
+[0.410s] writing entry points to ../../build/package/package.egg-info/entry_points.txt
+[0.410s] writing requirements to ../../build/package/package.egg-info/requires.txt
+[0.410s] writing top-level names to ../../build/package/package.egg-info/top_level.txt
+[0.428s] reading manifest file '../../build/package/package.egg-info/SOURCES.txt'
+[0.428s] writing manifest file '../../build/package/package.egg-info/SOURCES.txt'
+[0.428s] running build
+[0.428s] running build_py
+[0.429s] copying package/led_subscriber.py -> /home/ros2/ros2_ws/build/package/build/lib/package
+[0.429s] running install
+[0.429s] running install_lib
+[0.430s] copying /home/ros2/ros2_ws/build/package/build/lib/package/led_subscriber.py -> /home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package
+[0.430s] byte-compiling /home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package/led_subscriber.py to led_subscriber.cpython-38.pyc
+[0.431s] running install_data
+[0.431s] running install_egg_info
+[0.432s] removing '/home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package-0.0.0-py3.8.egg-info' (and everything under it)
+[0.432s] Copying ../../build/package/package.egg-info to /home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package-0.0.0-py3.8.egg-info
+[0.433s] running install_scripts
+[0.441s] Installing led_publisher script to /home/ros2/ros2_ws/install/package/lib/package
+[0.441s] Installing led_subscriber script to /home/ros2/ros2_ws/install/package/lib/package
+[0.442s] writing list of installed files to '/home/ros2/ros2_ws/build/package/install.log'
+[0.455s] Invoked command in '/home/ros2/ros2_ws/src/package' returned '0': PYTHONPATH=/home/ros2/ros2_ws/build/package/prefix_override:/home/ros2/ros2_ws/install/package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/package build --build-base /home/ros2/ros2_ws/build/package/build install --record /home/ros2/ros2_ws/build/package/install.log --install-scripts $base/lib/package --single-version-externally-managed

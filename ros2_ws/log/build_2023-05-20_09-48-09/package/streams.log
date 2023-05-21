@@ -1,0 +1,37 @@
+[0.310s] Invoking command in '/home/ros2/ros2_ws/src/package': PYTHONPATH=/home/ros2/ros2_ws/build/package/prefix_override:/home/ros2/ros2_ws/install/package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/package build --build-base /home/ros2/ros2_ws/build/package/build install --record /home/ros2/ros2_ws/build/package/install.log --install-scripts $base/lib/package --single-version-externally-managed
+[0.406s] running egg_info
+[0.406s] creating ../../build/package/package.egg-info
+[0.406s] writing ../../build/package/package.egg-info/PKG-INFO
+[0.406s] writing dependency_links to ../../build/package/package.egg-info/dependency_links.txt
+[0.406s] writing entry points to ../../build/package/package.egg-info/entry_points.txt
+[0.407s] writing requirements to ../../build/package/package.egg-info/requires.txt
+[0.407s] writing top-level names to ../../build/package/package.egg-info/top_level.txt
+[0.407s] writing manifest file '../../build/package/package.egg-info/SOURCES.txt'
+[0.424s] reading manifest file '../../build/package/package.egg-info/SOURCES.txt'
+[0.424s] writing manifest file '../../build/package/package.egg-info/SOURCES.txt'
+[0.424s] running build
+[0.424s] running build_py
+[0.424s] creating /home/ros2/ros2_ws/build/package/build
+[0.424s] creating /home/ros2/ros2_ws/build/package/build/lib
+[0.424s] creating /home/ros2/ros2_ws/build/package/build/lib/package
+[0.424s] copying package/led_publisher.py -> /home/ros2/ros2_ws/build/package/build/lib/package
+[0.424s] copying package/__init__.py -> /home/ros2/ros2_ws/build/package/build/lib/package
+[0.425s] running install
+[0.425s] running install_lib
+[0.425s] creating /home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package
+[0.426s] copying /home/ros2/ros2_ws/build/package/build/lib/package/led_publisher.py -> /home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package
+[0.426s] copying /home/ros2/ros2_ws/build/package/build/lib/package/__init__.py -> /home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package
+[0.426s] byte-compiling /home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package/led_publisher.py to led_publisher.cpython-38.pyc
+[0.427s] byte-compiling /home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package/__init__.py to __init__.cpython-38.pyc
+[0.427s] running install_data
+[0.428s] creating /home/ros2/ros2_ws/install/package/share/ament_index
+[0.428s] creating /home/ros2/ros2_ws/install/package/share/ament_index/resource_index
+[0.428s] creating /home/ros2/ros2_ws/install/package/share/ament_index/resource_index/packages
+[0.428s] copying resource/package -> /home/ros2/ros2_ws/install/package/share/ament_index/resource_index/packages
+[0.428s] copying package.xml -> /home/ros2/ros2_ws/install/package/share/package
+[0.428s] running install_egg_info
+[0.429s] Copying ../../build/package/package.egg-info to /home/ros2/ros2_ws/install/package/lib/python3.8/site-packages/package-0.0.0-py3.8.egg-info
+[0.431s] running install_scripts
+[0.441s] Installing led_publisher script to /home/ros2/ros2_ws/install/package/lib/package
+[0.441s] writing list of installed files to '/home/ros2/ros2_ws/build/package/install.log'
+[0.453s] Invoked command in '/home/ros2/ros2_ws/src/package' returned '0': PYTHONPATH=/home/ros2/ros2_ws/build/package/prefix_override:/home/ros2/ros2_ws/install/package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/package build --build-base /home/ros2/ros2_ws/build/package/build install --record /home/ros2/ros2_ws/build/package/install.log --install-scripts $base/lib/package --single-version-externally-managed

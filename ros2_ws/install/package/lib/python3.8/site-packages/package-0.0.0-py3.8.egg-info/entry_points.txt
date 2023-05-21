@@ -1,0 +1,5 @@
+[console_scripts]
+led_controller = package.led_controller:main
+led_publisher = package.led_publisher:main
+led_subscriber = package.led_subscriber:main
+
