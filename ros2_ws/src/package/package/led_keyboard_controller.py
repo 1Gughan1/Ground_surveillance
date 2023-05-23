@@ -40,7 +40,11 @@ class LedPublisher(Node):
                 self.is_key_pressed = True
                 self.led_status_ = 1
                 self.send_to_esp32(1)
-            elif char != 'w' and self.is_key_pressed:
+            elif char == 's' and not self.is_key_pressed:
+                self.is_key_pressed = True
+                self.led_status_ = 2
+                self.send_to_esp32(2)
+            elif char != ' ' and self.is_key_pressed:
                 self.is_key_pressed = False
                 self.led_status_ = 0
                 self.send_to_esp32(0)
